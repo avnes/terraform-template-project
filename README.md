@@ -2,7 +2,21 @@
 
 Insert description here.
 
+## Steps after repo creation
+
+- Update the title in this README.md file.
+- Create repository secret RENOVATE_TOKEN with a repo scoped GitHub token.
+- Create repository secret RENOVATE_GIT_AUTHOR with the GitHub author name in format: FirstName LastName \<email-address\> for the user that owns the GitHub token.
+- Remove any *.tf files you do not need; usually backend.tf and potentially terraform.tfvars.
+- Update .github/workflows/renovate.yaml with the new repo name (and possibly owner).
+- Remove this section in this README.md file.
+- Add and Commit to Git :)
+
 ## Requirements
+
+### Set repository secrets
+
+
 
 ### Install Terraform
 
